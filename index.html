@@ -3,8 +3,338 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <!-- header start -->
+    <header id="header" class="bg-primary py-5">
+      <div class="container m-auto">
+        <div class="brand flex justify-center">
+          <img class="h-20" src="./src/images/logo_1000x144.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <div class="bg-secendry py-5">
+      <div class="container m-auto">
+        <div class="flex justify-center">
+          <h4 class="text-white text-4xl">
+            Get a FREE Smile Consultation Without Leaving Home
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-10">
+      <div class="container m-auto">
+        <div class="flex justify-evenly">
+          <div class="text w-100 flex flex-col justify-center h-100">
+            <h4 class="text-black text-3xl py-7 capitalize">
+              Do You Want to Improve Your Smile?
+            </h4>
+            <div class="">
+              <a
+                class="capitalize p-2.5 bg-secendry inline w-auto text-white text-base rounded-sm border border-secendry ease-in duration-300 hover:bg-primary"
+                href="#"
+                >Get started now</a
+              >
+            </div>
+          </div>
+          <div class="img w-100">
+            <img src="./src/images/smaile.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-10 pb-16 bg-primary">
+      <div class="container m-auto">
+        <h2 class="text-4xl pb-2 uppercase text-white text-center">
+          just 3 simple steps:
+        </h2>
+        <div class="flex gap-3 justify-evenly">
+          <div class="img w-full flex justify-end items-center">
+            <img
+              class="w-[535px]"
+              src="./src/images/section_two_3_600x595.png"
+              alt=""
+            />
+          </div>
+          <div class="w-full flex justify-center flex-col px-9">
+            <div class="py-6">
+              <strong class="text-6xl text-text">1</strong>
+              <span class="text-2xl text-white ml-[-15px]"
+                >Upload two selfes</span
+              >
+            </div>
+            <div class="py-6">
+              <strong class="text-6xl text-text">2</strong>
+              <span class="text-2xl text-white ml-[-15px]"
+                >Share your "Smile Style" goals</span
+              >
+            </div>
+            <div class="py-6">
+              <strong class="text-6xl text-text">3</strong>
+              <span class="text-2xl text-white ml-[-15px]"
+                >Receive your personalized video addressing your needs and
+                explaining treatment options</span
+              >
+            </div>
+            <div class="py-6">
+              <p class="text-4xl text-white">
+                Yes, getting started is that easy!
+              </p>
+            </div>
+            <div class="pt-3">
+              <a
+                class="capitalize p-2.5 bg-secendry inline w-auto text-white text-base rounded-sm border border-secendry ease-in duration-300 hover:bg-primary"
+                href="#"
+                >Get started now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-secendry py-12">
+      <div class="container m-auto">
+        <h1 class="text-white text-center uppercase text-5xl">SIGN UP</h1>
+      </div>
+    </div>
+
+    <div class="gallery flex justify-between">
+      <div class="img">
+        <img src="./src/images/singup1.jpeg" alt="" />
+      </div>
+      <div class="img">
+        <img src="./src/images/signup4.jpeg" alt="" />
+      </div>
+      <div class="img">
+        <img src="./src/images/signup2.jpeg" alt="" />
+      </div>
+      <div class="img">
+        <img src="./src/images/singup3.jpeg" alt="" />
+      </div>
+    </div>
+
+    <!-- form start -->
+    <div class="form py-16 bg-secendry text-white">
+      <div class="container m-auto">
+        <div class="info">
+          <h1 class="uppercase text-5xl text-center">about you</h1>
+        </div>
+        <form action="#" class="py-5 flex gap-5 flex-col">
+          <div class="form-group flex gap-10">
+            <input
+              class="w-full px-3 py-1 rounded text-xl text-text"
+              type="email"
+              placeholder="Email"
+            />
+
+            <input
+              class="w-full px-3 py-1 rounded text-xl text-text"
+              type="text"
+              placeholder="City"
+            />
+          </div>
+
+          <div class="form-group flex gap-10">
+            <input
+              class="w-full px-3 py-1 rounded text-xl text-text"
+              type="text"
+              placeholder="First Name"
+            />
+
+            <select
+              name=""
+              id=""
+              class="w-full px-3 py-1 rounded text-xl text-text"
+            >
+              <option value="">Select state</option>
+              <option value="">Ex</option>
+              <option value="">dd</option>
+            </select>
+          </div>
+
+          <div class="form-group flex gap-10">
+            <input
+              class="w-full px-3 py-1 rounded text-xl text-text"
+              type="text"
+              placeholder="Last Name"
+            />
+
+            <input
+              class="w-full px-3 py-1 rounded text-xl text-text"
+              type="text"
+              placeholder="Zip code"
+            />
+          </div>
+          <div class="form-group flex gap-10">
+            <input
+              class="w-full px-3 py-1 rounded text-xl text-text"
+              type="text"
+              placeholder="Telephone"
+            />
+
+            <input
+              class="w-full px-3 py-1 rounded text-xl text-text"
+              type="text"
+              placeholder="Instagram handle"
+            />
+          </div>
+
+          <div class="form-group flex gap-10">
+            <textarea
+              name=""
+              id=""
+              rows="7"
+              class="w-full p-3 rounded text-xl text-text"
+              placeholder="Describe teh smile you'd like to have"
+            ></textarea>
+          </div>
+          <div class="form-group flex gap-10">
+            <textarea
+              name=""
+              id=""
+              rows="3"
+              class="w-full p-3 rounded text-xl text-text"
+              placeholder="How did you hear about us?"
+            ></textarea>
+          </div>
+          <div class="form-group flex gap-10">
+            <p class="bg-primary p-4 rounded text-xl text-center">
+              Please don’t be self-conscious about these “before” photos. We’re
+              professionals and we’ve seen it all, so we just need to know our
+              starting point so we can advise you properly in the personalized
+              video.
+            </p>
+          </div>
+
+          <div class="form-group flex gap-10">
+            <div class="form-item">
+              <div class="priview">
+                <h2 class="uppercase text-4xl text-white text-center">
+                  Upload selfie
+                </h2>
+                <div class="img my-4 border-[10px] border-white">
+                  <img
+                    class="h-[366px]"
+                    src="./src/images/selfie.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <input
+                class="w-full px-3 py-1 rounded text-sm text-black"
+                type="file"
+              />
+              <span class="text-[12px] text-red-700 block">
+                *Must be .jpg, .jpeg, .png or .gif < 5MB
+              </span>
+            </div>
+            <div class="form-item">
+              <div class="priview">
+                <h2 class="uppercase text-4xl text-white text-center">
+                  UPLOAD CLOSEUP
+                </h2>
+                <div class="img my-4 border-[10px] border-white">
+                  <img
+                    class="h-[366px]"
+                    src="./src/images/closeup.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <input
+                class="w-full px-3 py-1 rounded text-sm text-black"
+                type="file"
+              />
+              <span class="text-[12px] text-red-700 block">
+                *Must be .jpg, .jpeg, .png or .gif < 5MB
+              </span>
+            </div>
+          </div>
+
+          <div class="form-group flex gap-1">
+            <input type="checkbox" id="sing" />
+            <label for="sing"> I agree to the terms and conditions</label>
+          </div>
+
+          <div class="">
+            <a
+              class="capitalize p-2.5 bg-primary inline w-auto text-xl text-white text-base rounded border border-secendry ease-in duration-300 hover:bg-primary-1"
+              href="#"
+              >Submit</a
+            >
+            <span class="text-[12px] text-red-700 block py-3">
+              * All fields required</span
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- form end  -->
+
+    <div class="flex justify-between">
+      <div class="img">
+        <img src="./src/images/gallery1.jpeg" alt="" />
+      </div>
+      <div class="img">
+        <img src="./src/images/gallery2.jpeg" alt="" />
+      </div>
+      <div class="img">
+        <img src="./src/images/gallery3.jpeg" alt="" />
+      </div>
+      <div class="img">
+        <img src="./src/images/gallery4.jpeg" alt="" />
+      </div>
+    </div>
+
+    <!-- footer start  -->
+    <footer id="footer" class="py-7 bg-primary text-white">
+      <div class="container m-auto">
+        <div class="text-center">
+          <p class="text-base">
+            &copy; 2023 by Lakeview Family Dentistry. All rights reserved.
+          </p>
+          <ul class="social flex justify-center py-4 gap-3">
+            <li>
+              <a href="#" class="text-white text-3xl"
+                ><i class="fa-brands fa-square-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white text-3xl" href="#"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+          <span class="text-sm"
+            >Web development by <a href="#">Pipeline.dental</a></span
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- footer end  -->
+
+    <!-- font awesome icon script  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
 </html>
